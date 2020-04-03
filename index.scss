@@ -1,0 +1,115 @@
+body {
+    font-family: "Helvetica";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    figure {
+        display: inline-block;
+        margin-right: 0;
+        width: 20%;
+        padding-top: 5px;
+        img {
+            width: 80px;
+        }
+        h1 {
+            color: white;
+            font-weight: lighter;
+            display: inline-block;
+            font-size: 1em;
+            vertical-align: top;
+            width: 80px;
+        }
+    }
+
+    nav {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 27.5px;
+        width: 70%;
+        text-align: right;
+
+        input {
+            width: 200px;
+            height: 23px;
+            padding-left: 25px;
+        }
+
+        button {
+            color: white;
+            background-color: red;
+            border: none;
+            height: 30px;
+        }
+
+    }
+
+}
+
+aside {
+    display: inline-block;
+    div {
+        figure{
+            display: inline-block;
+            img {
+                width: 80px;
+            }
+        }
+        div {
+            display: inline-block;
+            text-transform: uppercase;
+            vertical-align: top;
+            margin-top: 17.5px;
+            h2 {
+                color: red;
+                font-size: 12px;
+            }
+            p {
+                color: gray;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+main {
+    background-color: beige;
+    display: inline-block;
+    width: 65%;
+    float: right;
+
+    section {
+        z-index: 1;
+        figure {
+            margin: 0;
+            img {
+                width: 100%;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            background-color: red;
+            color: white;
+            width: 140px;
+            padding: 10px 0;
+            margin-top: -35px;
+        }
+    }
+
+    section#lugar{
+        margin: 0 39% 0;
+        z-index: 2;
+        position: relative;
+    }
+
+    section#precio {
+        p {
+            text-align: center;
+            text-transform: uppercase;
+        }    
+    }
+
+}

@@ -1,0 +1,109 @@
+body {
+  font-family: "Helvetica";
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: black;
+}
+header figure {
+  display: inline-block;
+  margin-right: 0;
+  width: 20%;
+  padding-top: 5px;
+}
+header figure img {
+  width: 80px;
+}
+header figure h1 {
+  color: white;
+  font-weight: lighter;
+  display: inline-block;
+  font-size: 1em;
+  vertical-align: top;
+  width: 80px;
+}
+header nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 27.5px;
+  width: 70%;
+  text-align: right;
+}
+header nav input {
+  width: 200px;
+  height: 23px;
+  padding-left: 25px;
+}
+header nav button {
+  color: white;
+  background-color: blue;
+  border: none;
+  height: 30px;
+}
+
+aside {
+  display: inline-block;
+}
+aside div figure {
+  display: inline-block;
+}
+aside div figure img {
+  width: 80px;
+}
+aside div div {
+  display: inline-block;
+  text-transform: uppercase;
+  vertical-align: top;
+  margin-top: 17.5px;
+}
+aside div div h2 {
+  color: blue;
+  font-size: 12px;
+}
+aside div div p {
+  color: gray;
+  font-size: 12px;
+}
+
+main {
+  background-color: black;
+  display: inline-block;
+  width: 65%;
+  float: right;
+}
+main section {
+  z-index: 1;
+}
+main section figure {
+  margin: 0;
+}
+main section figure img {
+  width: 100%;
+}
+main section h2 {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  width: 140px;
+  padding: 10px 0;
+  margin-top: -35px;
+}
+main section#lugar {
+  margin: 0 39% 0;
+  z-index: 2;
+  position: relative;
+}
+main section#precio p {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#copyright {
+  background-color: black;
+  color: white;
+
+
+}
